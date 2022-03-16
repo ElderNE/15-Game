@@ -1,0 +1,40 @@
+@media screen and (min-width:1200px) {
+    .btnSize {
+    height: 150px;
+    width: 150px;
+    }
+    .box {
+        font-size: 72px;
+        font-weight: bold;        
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .btnSize {
+    height: 110px;
+    width: 110px;
+    }
+    .box {
+        font-size: 36px;
+        font-weight: bold;        
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .btnSize {
+    height: 80px;
+    width: 80px;
+    }
+    .box {
+        font-size: 24px;
+        font-weight: bold;        
+    }
+}
+@media screen and (max-width:768px) {
+    .btnSize {
+    height: 50px;
+    width: 50px;
+    }
+    .box {
+        font-size: 14px;
+        font-weight: bold;        
+    }
+}
