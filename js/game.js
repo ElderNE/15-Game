@@ -70,6 +70,5 @@ function step (numberBox){
     else {
         checkPosition(numberBox);
     }
-    }
 }
 
