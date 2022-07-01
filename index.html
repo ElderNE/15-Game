@@ -21,40 +21,40 @@
             <h1 style="color:white;font-weight:solid;font-size:72px;">YOU WIN!</h1>
         </div>
         <div class="winHide">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(0)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(1)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(2)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(3)"><p class="box"></p></button>
+            <form class="container" onclick="step(event)">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="0" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="1" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="2" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="3" class="box"></p></button>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(4)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(5)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(6)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(7)"><p class="box"></p></button>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="4" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="5"class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="6" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="7" class="box"></p></button>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(8)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(9)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(10)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(11)"><p class="box"></p></button>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="8" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="9" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="10" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="11" class="box"></p></button>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(12)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(13)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(14)"><p class="box"></p></button>
-                    <button type="button" class="btn btn btn-outline-light btnSize" onclick="step(15)"><p class="box"></p></button>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="12" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="13" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="14" class="box"></p></button>
+                        <button type="button" class="btn btn btn-outline-light btnSize"><p id="15" class="box"></p></button>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </form>
         </div> 
     </main>
     <script src="./js/game.js"></script>

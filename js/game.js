@@ -30,7 +30,16 @@ function fillment (){
     }
 }
 //onclick on field
-function step (numberBox){
+function step (event){
+    let numberBox
+    let target=event.target;
+    let td = event.target.childNodes[0].id;
+    if( td ) {
+        numberBox=Number(td);
+    }
+    else {
+        numberBox=Number(target.id);
+    }    
     //get win
     let steps=0
     function fWin () {
