@@ -1,7 +1,11 @@
+html {
+    height: 100%;
+}
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(../images/fon.jpg);
+    background-image: url(../images/fon.jpg), linear-gradient(to right, #1A2231, #BAA988);
     background-size: cover;
     background-repeat: no-repeat;
 }
